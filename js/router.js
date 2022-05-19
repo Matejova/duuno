@@ -20,7 +20,7 @@ const _routes = {
 }
 const _pages = document.querySelectorAll(".page");
 const _basePath = location.pathname.replace("index.html", ""); // remove index.html from path
-const _navLinks = document.querySelectorAll("button");
+const _navLinks = document.querySelectorAll("nav a");
 
 /**
  * Changing display to none for all pages
