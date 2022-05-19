@@ -1,5 +1,4 @@
-import { navigateTo } from "./router.js";
-console.log("app.js is running!");
+console.log("login.js is running!");
 
 function login() {
 	const mail = document.querySelector("#login-mail").value;
@@ -8,15 +7,16 @@ function login() {
 	if (mail === "1" && password === "1") {
 		localStorage.setItem("userIsAuthenticated", true);
 		document.querySelector(".login-message").innerHTML = "";
-		navigateTo("#/");
+        window.location.href = "guide.html";
 	} else {
 		document.querySelector(".login-message").innerHTML = "User not found. Wrong name or password.";
 	}
 }
 
+
 function logout() {
 	localStorage.removeItem("userIsAuthenticated");
-	navigateTo("#/login");
+    window.location.href = "index.html";
 }
 
 document.querySelector("#btn-login").onclick = () => login();
