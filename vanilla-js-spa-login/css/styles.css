@@ -1,0 +1,410 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #FEFEFE;
+}
+
+h1{
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 111%;
+
+}
+
+h1{
+  font-size: 25px;
+  font-weight: 700;
+}
+
+p{
+  font-size: 16px;
+}
+
+/* ---------- page styling ---------- */
+.page {
+  display: none;
+  /*min heigh is screen heigh minus height of tab and top bar */
+  animation: fadeIn 0.4s;
+  /* padding equals height of tabbar and topbar */
+}
+
+/* ---------- animations ---------- */
+/* fade in */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* ---------- loader styling ---------- */
+#loader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999999999;
+  overflow: hidden;
+  text-align: center;
+}
+
+.spinner {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  -webkit-animation: spin 1s linear infinite;
+  /* Safari */
+  animation: spin 1s linear infinite;
+  display: inline-block;
+  vertical-align: middle;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.hide {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 0.4s, opacity 0.4s linear;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* ---------- input form stryling ---------- */
+form {
+  margin-top: 15px;
+}
+
+form button {
+  font-weight: 50;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  padding: 12px 15px;
+  font-size: 1em;
+  border-radius: 50px;
+  width: 100%;
+  max-width: 350px;
+  background-color: #2862CC;
+  color: #FEFEFE;
+}
+
+article button {
+  font-weight: 200;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  padding: 10px 8px;
+  border-radius: 0;
+  width: 40%;
+  text-transform: uppercase;
+}
+
+input {
+  margin: 1em auto;
+  width: 100%;
+  max-width: 350px;
+  padding: 12px 15px;
+  box-sizing: border-box;
+  display: block;
+  border-radius: 50px;
+  border: 2px solid #2862CC;
+}
+
+section{
+margin-bottom: 7rem;    }
+.sidenav {
+  height: 100%;
+  width: 191px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  border-left: solid #2862CC 3px;
+  overflow-x: hidden;
+/*padding-top: 5px;*/    }
+
+.sidenav a {
+  padding: 2.3vh 8px 2.3vh 16px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #000000;
+  display: block;
+}
+
+.navheading{
+  border-bottom: solid #2862CC 3px;
+  font-weight: 500;
+}
+.navlast{
+  border-top: solid #2862CC 3px;
+  font-weight: 500;
+}
+.sidenav a:hover {
+  color: #2862CC;
+}
+
+.main {
+  margin-right: 191px; /* Same as the width of the sidenav */
+  font-size: 15px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+.flex-container {
+display: flex;
+/*justify-content: center;*/
+/*background-color: #2862CC;*/
+margin: 3rem auto 1rem auto;
+}
+
+.flex{
+flex-direction: row;
+
+}
+
+.flex-container > div {
+/* background-color: #f1f1f1;*/
+margin: auto 10px auto 10px;
+}
+
+.onesection{
+text-align: left;
+padding-left: 2vw;
+}
+
+.onetitle{
+font-size: 20px;
+font-weight: 700;
+text-align: center;
+}
+
+.colormain{
+display: flex;
+align-items: stretch;
+/*background-color: #f1f1f1;*/
+margin: auto 10vw;
+
+}
+
+.colormain > div{
+margin: 10px;
+text-align:start;
+font-size: 30px;
+height: 50vh;}
+
+
+.colorsec{
+display: flex;
+align-items: stretch;
+/*background-color: #f1f1f1;*/
+margin: auto 10vw;
+
+}
+
+.colorsec > div{
+margin: 10px 4px;
+text-align:start;
+font-size: 30px;
+height: 15vh;}
+
+
+
+.colorsecc{
+display: flex;
+align-items: stretch;
+/*background-color: #f1f1f1;*/
+margin: auto 10vw;
+
+}
+
+.colorsecc > div{
+margin: 8px 4px;
+text-align:start;
+font-size: 30px;
+height: 10vh;}
+
+.contentimg{
+display: flex;
+justify-content: center;
+margin: 10vh auto 2vh auto;
+
+/*background-color: DodgerBlue;*/
+
+}
+.contentimg text{
+background-color: #f1f1f1;
+width: 100px;
+margin: 10px;
+font-size: 30px;
+
+}
+
+
+.imgaquare{
+margin: 0 2vw;
+}
+
+.text{
+/*background-color: #A3E1DA;*/
+}
+
+/* Scrollsnap */
+.example-wrapper {
+text-align: center;
+width: 400px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.snapcont {
+width: 320px;
+height: 320px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 10px;
+border: 2px solid #2862CC;
+overflow: scroll;
+position: relative;
+}
+
+.snapbox {
+width: 300px;
+height: 300px;
+scroll-margin: 10px;
+scroll-snap-align: start;
+scroll-snap-stop: normal;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.snapbox:nth-child(1) {
+background: #2862CC;
+}
+.snapbox:nth-child(2) {
+background: #329A8E;
+}
+.snapbox:nth-child(3) {
+background: #E4572E;
+}
+.snapbox:nth-child(4) {
+background: #FFCA36;
+}
+
+
+.y-proximity {
+scroll-snap-type: y proximity;
+}
+
+.x-scroll .snapwrapper {
+width: 1240px;
+}
+
+.x-scroll .snapbox {
+float: left;
+margin-right: 10px;
+}
+
+
+.y-scroll .snapbox {
+margin-bottom: 10px;
+}
+
+.both-scroll .snapwrapper {
+width: 620px;
+height: 100%;
+display: grid;
+grid-template-columns: 300px 300px;
+grid-gap: 10px;
+}
+
+
+.floating {
+animation-name: floating;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+}
+
+
+@keyframes floating {
+from {
+transform: translate(0, 0px);
+}
+
+65% {
+transform: translate(0, 9px);
+}
+
+to {
+transform: translate(0, -0px);
+}
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+.flex{
+flex-direction: column;
+}
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth;
+  }
+}
+a.right {
+ left: 50px;
+}
+
+
+/* ---------- topbar styling ---------- */
+.topbar {
+  z-index: 9999;
+}
+
+
+.topbar a {
+  text-decoration: none;
+  position: absolute;
+  top: 20px;
+}
+
+.header a.left {
+  left: 20px;
+}
+
+.topbar a.right {
+  right: 20px;
+}
+
+/* ---------- tabbar styling ---------- */
+.tabbar {
+  position: fixed;
+  z-index: 9999;
+}

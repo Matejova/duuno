@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Barma web design guide</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Barma web design guide">
+  <meta name="author" content="Barbora Matejova">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="img/favicon.svg" />
+
+</head>
+
+<body>
+  <!-------------- Navigation -------------->
+  <nav class="tabbar hide">
+    <div class="sidenav">
+      <a href="#intro" class="navheading">Introduction</a>
+      <a href="#proto" class="navheading">Prototype</a>
+      <a href="#elements" class="navheading" style="border-bottom: 0ch;">Elements</a>
+      <a href="#logo">Logo</a>
+      <a href="#color">Color</a>
+      <a href="#typo">Typography</a>
+      <a href="#effect">Effects</a>
+      <a href="#graphics">Graphics</a>
+      <a href="#icons">Icons</a>
+      <a href="#buttons">Buttons</a>
+      <a href="#pattern">Design patterns</a>
+      <a href="#animation" class="navlast">Animation</a>
+
+    </div>
+  </nav>
+
+  <main id="appRoot">
+    <!-------------- Pages -------------->
+
+    <!-- login page -->
+    <section id="login" class="page login-page">
+      <div style="margin: 2rem auto 2rem 2rem ;"><img src="img/BarmaLogo.png" alt="Barma Logo" style="height: 38px; width: auto" ></div>
+
+     <div style="text-align: center; margin: 15vh 32vw; padding: 50px 10px; background-color: #fefefe; border-radius: 50px; box-shadow: -2px 2px 15px rgba(0, 0, 0, 0.16);"> 
+       <header class="topbar">
+        <h2 style=" margin: 0 10px; font-weight: 600; font-size: 28px;">Welcome to Webdesign guide</h2>
+      </header>
+      <p style=" margin: 0 auto 5vh auto; ">To access this page please login</p>
+      <p class="login-message"></p>
+      <form>
+        <input id="login-mail" type="email" placeholder="Enter username">
+        <input id="login-password" type="password" placeholder="Enter password">
+        <button type="button" id="btn-login">Login</button>
+      </form>
+    </div>
+    </section>
+
+    <!-- home page -->
+    <section id="home" class="page">
+      <header>      
+        <div style="margin: 2rem auto 2rem 2rem ;"> <a><img src="img/BarmaLogo.png" alt="Barma Logo" style="height: 38px; width: auto" ></a> </div>
+
+       <div style="right:260px; top: 40px; position: fixed; font-weight: bold; ">   <button type="button" id="btn-logout">Logout</button></div>  
+      </header> 
+
+<!-- Introduction section-->
+<section id="intro">
+  <div class="flex-container flex" >
+    <div style="width: 20%; height: auto; margin-top: 18px;" class="onetitle">Introduction</div>
+    <div style="width: 80%; height: auto;" class="onesection">
+    <h1>Welcome to Barma web design concept.</h1>
+<p>In this page you will find the current prototype and elements used within it.
+<br> To easily navigate use the side navigation.
+<br>   In case of any queries, reach out to <a href="mailto:bara@barma.dk"> Bara Matejova</a>
+<br> <b>This page is not to be distributed and should be used only within the Barma aps.</b>
+    </p>  
+  </div>
+  </div>
+</section>
+
+
+<!-- Prototype section -->
+<section   id="proto">
+  <div class="flex-container flex">
+    <div style="width: 20%; height: auto; margin-top: 18px;" class="onetitle">Prototype</div>
+    <div style="width: 80%; height: auto;" class="onesection">
+    <h1>The full design proposal</h1>
+    <p>
+      Made and prototyped  with Figma. 
+      <br> <br>
+      View the live prototype bellow 
+      <br> <b>To get the most accurate experience please expand the prototype to full screen</b>
+    </p>  
+  </div>
+  </div> 
+ 
+  <div style="margin: auto 0;">   
+    <iframe style="    display: block;
+     margin: 0 auto ; border: #2862CC solid 3px;" width="860" height="900" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FgLMaic8ZeFNxIrFvqHF1cy%2FWebsite-design%3Fpage-id%3D0%253A1%26node-id%3D3%253A5%26viewport%3D208%252C528%252C0.13%26scaling%3Dmin-zoom%26starting-point-node-id%3D3%253A5"  allowfullscreen></iframe>
+  
+      </div>
+  
+</section>
+
+
+<!-- Prototype section -->
+<section  style="margin-bottom: 0;" id="elements">
+  <div class="flex-container flex" >
+    <div style="width: 20%; height: auto; margin-top: 18px;" class="onetitle">Elements</div>
+    <div style="width: 80%; height: auto;" class="onesection">
+    <h1>From this point bellow, see the key elements used in the design </h1>
+
+  </div>
+  </div>
+</section>
+
+<!-- Logo section -->
+<section id="logo">
+  <div class="flex-container flex" >
+    <div style="width: 20%; height: auto; margin-top: 18px;" class="onetitle">Logo</div>
+    <div style="width: 80%; height: auto;" class="onesection">
+    <h1>Logo used in the design is the original one of Barma.<br> There are no alterations to be made to it.</h1>
+    <p>
+      Download all <a href="/download/logo/BarmaWebLogo.zip" download>  logos </a> 
+    </p>  
+  </div>
+  </div>
+
+
+  <div class="contentimg">
+    <div style="margin-right: 5vw; padding-top: 7vh;"> <img src="img/BarmaLogo.png" alt="Barma logo" style="height: 50px; width: auto;"></div>
+      <div class=" text"> <h2>Barma logo</h2>
+        <p>To be used as the primary logo.
+          <br>Can be found in the top navigation.
+     <br>  <br> <b>Width:</b> 164.89px
+       <br> <b>Height:</b> 50px
+      </p></div>
+  </div>  
+
+  <div class="contentimg" style="background-color: #2862CC;">
+    <div style="margin-right: 5vw; padding-top: 7vh;"> <img src="img/BarmaLogoneg.png" alt="Barma logo negative" style="height: 50px; width: auto; "></div>
+      <div class=" text"> <h2>Barma logo negative</h2>
+         <p>To be used in the footer <br> 
+          <br> <b>Width:</b> 187.37px
+          <br> <b>Height:</b> 56.82px
+        
+        </p></div>
+  </div>  
+
+  <div class="contentimg">
+    <div style="margin-right: 5vw; padding-top: 7vh;"> <img src="img/favicon.png" alt="Barma logo favicon" style="height: 50px; width: auto;"></div>
+      <div class=" text"> <h2>Favicon</h2>
+        <p>To be used as a favicon.
+          <br> <br> <b>Width:</b> 10px
+          <br> <b>Height:</b> 11.85px
+        </p></div>
+  </div>  
+
+</section>
+
+<!-- Color section -->
+<section id="color">
+  <div class="flex-container flex" >
+    <div style="width: 20%; height: auto; margin-top: 18px;" class="onetitle">Color</div>
+    <div style="width: 80%; height: auto;" class="onesection">
+    <h1>The website color palette</h1>
+  </div>
+  </div>
+
+  <h2 style="margin:  2rem auto auto 18% ;">Primary colors</h2>
+  <div class=" colormain">
+
+      <div style="flex-grow: 8; background-color: #2862CC;"> <p style="padding-left: 15px;"> #2862CC  </p></div>
+      <div style="flex-grow: 5; background-color: #90AFE9;"><p style="padding-left: 15px;"> #90AFE9</div>
+      <div style="flex-grow: 3; background-color: #E3EBFA;"><p style="padding-left: 15px;"> #E3EBFA</div>
+      <div style="flex-grow: 1; background-color: #FFFFFF; border: solid #000000 3px;"><p style="padding-left: 15px;"> #F5F8FA </p></div>
+
+  </div>
+  <div class="colormain">
+    <div style="flex-grow: 5; height: 10vh; background-color: #FEFEFE; border: solid #000000 3px;"><p style="padding-left: 15px;"> #FEFEFE <br> background </p></div>
+    <div style="flex-grow: 1; height: 10vh; background-color: #20326F;"><p style="padding-left: 15px;"> #20326F <br> text </p></div>
+
+  </div>
+
+  <h2 style="margin:  2rem auto auto 18% ;">Accent colors</h2>
+  <div class=" colorsec">
+    <div style="flex-grow: 2; background-color: #E4572E;"> <p style="padding-left: 15px;"> #E4572E  </p></div>
+      <div style="flex-grow: 2; background-color: #329A8E;"><p style="padding-left: 15px;"> #329A8E</div>
+      <div style="flex-grow: 2; background-color: #FFCA36;"><p style="padding-left: 15px;"> #FFCA36</div>
+      <div style="flex-grow: 2; background-color: #5766C3;"><p style="padding-left: 15px;"> #5766C3 </p></div>
+      <div style="flex-grow: 2; background-color: #F487B6;"><p style="padding-left: 15px;"> #F487B6 </p></div>
+  </div>
+  <h2 style="margin:  2rem auto auto 18% ;">Tones </h2>
+  
+  
+  <div class=" colorsecc">
+    <div style="flex-grow: 2; background-color: #EB8363;"> <p style="padding-left: 15px;"> #EB8363  </p></div>
+      <div style="flex-grow: 2; background-color: #46C3B4;"><p style="padding-left: 15px;"> #46C3B4</div>
+      <div style="flex-grow: 2; background-color: #FFD55E;"><p style="padding-left: 15px;"> #FFD55E</div>
+      <div style="flex-grow: 2; background-color: #7985CF;"><p style="padding-left: 15px;"> #7985CF </p></div>
+      <div style="flex-grow: 2; background-color: #F69FC5;"><p style="padding-left: 15px;"> #F69FC5 </p></div>
+  </div>
+
+  
+  <div class=" colorsecc">
+    <div style="flex-grow: 2; background-color: #F2AC97;"> <p style="padding-left: 15px;"> #F2AC97  </p></div>
+      <div style="flex-grow: 2; background-color: #A3E1DA;"><p style="padding-left: 15px;"> #A3E1DA</div>
+      <div style="flex-grow: 2; background-color: #FFDF86;"><p style="padding-left: 15px;"> #FFDF86</div>
+      <div style="flex-grow: 2; background-color: #9AA3DB;"><p style="padding-left: 15px;"> #9AA3DB </p></div>
+      <div style="flex-grow: 2; background-color: #F8B7D3;"><p style="padding-left: 15px;"> #F8B7D3 </p></div>
+  </div>  
+  
+
+  <div class=" colorsecc">
+    <div style="flex-grow: 2; background-color: #F8D6CB;"> <p style="padding-left: 15px;"> #F8D6CB  </p></div>
+      <div style="flex-grow: 2; background-color: #A3E1DA;"><p style="padding-left: 15px;"> #A3E1DA</div>
+      <div style="flex-grow: 2; background-color: #FFEAAF;"><p style="padding-left: 15px;"> #FFEAAF</div>
+      <div style="flex-grow: 2; background-color: #BCC2E7;"><p style="padding-left: 15px;"> #BCC2E7 </p></div>
+      <div style="flex-grow: 2; background-color: #FBCFE2;"><p style="padding-left: 15px;"> #FBCFE2 </p></div>
+  </div>
+
+  <div class=" colorsecc">
+    <div style="flex-grow: 2; background-color: #FCEAE5;"> <p style="padding-left: 15px;"> #FCEAE5  </p></div>
+      <div style="flex-grow: 2; background-color: #D1F0EC;"><p style="padding-left: 15px;"> #D1F0EC</div>
+      <div style="flex-grow: 2; background-color: #FFF4D7;"><p style="padding-left: 15px;"> #FFF4D7</div>
+      <div style="flex-grow: 2; background-color: #DDE0F3;"><p style="padding-left: 15px;"> #DDE0F3 </p></div>
+      <div style="flex-grow: 2; background-color: #FDE7F0;"><p style="padding-left: 15px;"> #FDE7F0 </p></div>
+  </div>  
+  
+
+</section>
+
+<!-- Typography section -->
+<section id="typo">
+  <div class="flex-container flex" >
+    <div style="width: 20%; height: auto; margin-top: 18px;" class="onetitle">Typography</div>
+    <div style="width: 80%; height: auto;" class="onesection">
+    <h1>The typeface used is Poppins, the official Barma font. </h1>
+    <p>
+      All of the text is by default #131E41, if not defined otherwise
+      <br>Download the <a href="download/font/Poppins.zip" download> font</a>   
+    <br> See examples of the text used bellow    </p>  
+  </div>
+  </div>
+
+  <div >
+    <img src="img/typpo.png" alt="Typography example" style="display: block;  margin-left: auto; margin-right: auto; height: auto; width: 35vw;">
+  </div>
+
+</section> 
+
+<!-- Effects section -->
+<section id="effect">
+  <div class="flex-container flex" >
+    <div style="width: 20%; height: auto; margin-top: 18px;" class="onetitle">Effects</div>
+    <div style="width: 80%; height: auto;" class="onesection">
+    <h1>Showcase of the Figma effects used in the design solution.</h1>
+    <p>
+      Not all elements have an effect, therefore if not defined theres no mistake.
+      <br> <br>
+      View the Effect showcase below. 
+      <br> <b>To get the most accurate experience please expand to full screen</b>
+    </p>  
+  </div>
+  </div>
+
+  
+  <div style="margin: auto 0;">   
+    <iframe style="    display: block;
+     margin: 0 auto ; border: #2862CC solid 3px;" width="598" height="641" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FgLMaic8ZeFNxIrFvqHF1cy%2FWebsite-design%3Fpage-id%3D992%253A3948%26node-id%3D992%253A3949%26viewport%3D440%252C385%252C0.5%26scaling%3Dmin-zoom"  allowfullscreen></iframe>
+  
+      </div>
+</section> 
+
+<!-- Graphics section -->
+<section id="graphics">
+  <div class="flex-container flex" >
+    <div style="width: 20%; height: auto; margin-top: 18px;" class="onetitle">Graphics</div>
+    <div style="width: 80%; height: auto;" class="onesection">
+    <h1>Collection of all graphics used in the design</h1>
+    <p>
+    For download, reach out to <a href="mailto:bara@barma.dk">
+      Bara Matejova</a> to receive images in full resolution.
+
+    </p>  
+  </div>
+  </div>
+
+  <div class=" contentimg">
+    <div style="margin-right: 5vw; padding-top:20px ;"> <img src="img/intrograph.png" alt="Introduction graphic" style="height: auto; width: 20vw;"></div>
+      <div class=" text">
+         <h2>Introduction graphic</h2>
+         <p>Can be found on the landing page.
+            <br> <br><b>Animation:</b> <a href="#intrograph">Float </a> </p>
+          
+          </div>
+  </div>  
+ 
+
+
+  <div class=" contentimg">
+    <div style="margin-right: 5vw; padding-top:20px ;"> <img src="img/graphic2.png" alt="Explore graphic" style="height: auto; width: 20vw;"></div>
+      <div class=" text" >  
+        <h2>Explore graphic</h2>
+        <p>Displayed on the landing page.
+  
+           <br> <br><b>Animation:</b> <a href="#exploregraph">Explore </a>  </p></div>
+  </div>  
+ 
+  <div class=" contentimg">
+    <div style="margin-right: 5vw; padding-top:20px ;"> <img src="img/graphic3.png" alt="App introduction graphic" style="height: auto; width: 20vw;"></div>
+      <div class=" text" > 
+        <h2>App introduction graphic</h2>
+        <p>See on the App page. 
+        </p></div>
+  </div>  
+
+
+  <div class=" contentimg">
+    <div style="margin-right: 5vw; padding-top:20px ;"> <img src="img/graphic4.png" alt="E-learning introduction graphic" style="height: auto; width: 20vw;"></div>
+      <div class=" text"> 
+         <h2>E-learning introduction graphic</h2>
+        <p>Displayed on the e-learning page.<br> </p></div>
+  </div>  
+
+  
+  <div class=" contentimg">
+    <div style="margin-right: 5vw; padding-top:20px ;"> <img src="img/graphic5.png" alt="App feature graphic" style="height: auto; width: 20vw;"></div>
+      <div class=" text">
+          <h2>App feature graphic</h2>
+        <p>Can be found on the App page.<br> </p></div>
+  </div>  
+
+  <div class=" contentimg">
+    <div style="margin-right: 5vw; padding-top:20px ;"> <img src="img/graphic6.png" alt="App feature graphic" style="height: auto; width: 20vw;"></div>
+      <div class=" text" >  
+        <h2>App feature graphic</h2>
+        <p>See on the App page. 
+        </p></div>
+  </div>  
+
+
+
+
+  <div class=" contentimg">
+    <div style="margin-right: 5vw; padding-top:20px; "> 
+      <img class="imgaquare" src="img/square1.svg" alt="Square 1" style="height: auto; width: 6vw;">
+      <img class="imgaquare" src="img/square2.svg" alt="Square 2" style="height: auto; width: 6vw;">
+      <img class="imgaquare" src="img/square3.svg" alt="Square 3" style="height: auto; width: 6vw;">
+      <img class="imgaquare" src="img/square4.svg" alt="Square 4" style="height: auto; width: 6vw;">
+      <br>
+      <img class="imgaquare" src="img/square5.svg" alt="Square 5" style="height: auto; width: 6vw;">
+      <img class="imgaquare" src="img/square6.svg" alt="Square 6" style="height: auto; width: 6vw;">
+      <img class="imgaquare" src="img/square7.svg" alt="Square 7" style="height: auto; width: 6vw;">
+      <img class="imgaquare" src="img/square8.svg" alt="Square 8" style="height: auto; width: 6vw;">
+
+  </div>
+      <div class=" text"> <h2>Squares</h2><p>Used throughout the solution as a part of the Graphics <br> 
+      Composed from a square - border-radius: 9px; and an a <a href="#icons">Icon</a>
+    <br> Monochromatic in color - accent colors (Hue + 200 Tone) </p></div>
+  </div>  
+
+
+
+  <div class=" contentimg">
+    <div style="margin-right: 5vw; padding-top:20px ;"> <img src="img/triangle.png" alt="Barma triangle" style="height: auto; width: 15vw;"></div>
+      <div class=" text" > <h2>Triangle</h2><p> Used throughout the solution as a part of the Graphics <br> 
+        but also as an independent element.<br>
+        <a href="download/triangles/triangle.png" download>Download</a></p></div>
+  </div>  
+
+
+
+  <div class=" contentimg" style="background-color: #2862CC; padding-top: 25px;padding-bottom: 25px;">
+    <div style="margin-right: 5vw; padding-top:20px ;"> <img src="img/texturetriangle.png" alt="Barma triangle texture" style="height: auto; width: 15vw;"></div>
+      <div class=" text"> <h2>Triangle texture</h2><p>Not to be used on its own. <br>See examples of proper use below. <br>
+         <a href="download/triangles/texturetriangle.png" download>Download</a> </p></div>
+  </div>  
+
+  
+  <div class=" contentimg">
+    <div style="margin-right: 5vw; padding-top:20px ;"> <img src="img/textureexample1.svg" alt="Example 1 - Texture" style="height: auto; width: 35vw;"></div>
+  </div>  
+
+  <div class=" contentimg">
+    <div style="margin-right: 5vw; padding-top:20px ;"> <img src="img/textureexample2.svg" alt="Example 2 - Texture" style="height: auto; width: 35vw;"></div>
+  </div>  
+
+  <div class=" contentimg">
+    <div style="margin-right: 5vw; padding-top:20px ;"> <img src="img/textureexample13.svg" alt="Example 3 - Texture" style="height:  auto; width: 35vw;"></div>
+  </div>  
+
+
+</section>
+
+<section id="icons">
+  <div class="flex-container flex" >
+    <div style="width: 20%; height: auto; margin-top: 18px;" class="onetitle">Icons</div>
+    <div style="width: 80%; height: auto;" class="onesection">
+    <h1>The Icons used are the official Barma icons.
+    </h1>
+    <p>
+     <a href="/download/icons/icons.zip" download>   Download all icons </a> 
+    </p>  
+  </div>
+  </div>
+
+
+
+  <div >
+    <img src="img/icons.png" alt="Icons" style="display: block;  margin-left: auto; margin-right: auto; height: auto; width: 35vw;">
+  </div>
+</section>
+
+
+<!-- Buttons section -->  
+<section id="buttons">
+  <div class="flex-container flex" >
+    <div style="width: 20%; height: auto; margin-top: 18px;" class="onetitle">Buttons</div>
+    <div style="width: 80%; height: auto;" class="onesection">
+    <h1>Showcase of Buttons used in the design solution.</h1>
+    <p>
+      If property not defined, it is a case sensitive therefore refer to the source material of the prototype and if needed reach out to <a href="mailto:bara@barma.dk"> Bara Matejova</a>
+
+    </p>  
+  </div>
+  </div>
+
+
+  
+  <div class=" contentimg">
+    <div style="margin-right: 5vw; padding-top: 8vh " > <img src="img/CTAbook.png" alt="Call to action button" style="height: 50px; width: auto;"></div>
+      <div class=" text">
+        <h2 id="CTA">Call to action</h2>
+        <p><b>Container styling</b>
+          <br>width: 197.26px;
+          <br>height: 49px;
+          <br>background: #FFFFFF;
+          <br>border: 4px solid #2862CC;
+          <br>border-radius: 50px;
+            
+                    <br><br>  <b>Text styling</b>
+                    <br>font-family: 'Poppins';
+                    <br>font-style: normal;
+                    <br>font-weight: 600;
+                    <br>font-size: 20px;
+                    <br>line-height: 30px;
+                    <br> color: #2862CC;
+                  
+                    <br> <br> <b>Effect:</b> xs_shadow
+                  </p></div>
+    
+  </div>  
+
+
+  <div class=" contentimg">
+    <div style="margin-right: 5vw; padding-top: 8vh " > <img src="img/btncleat.png" alt="Learn more button" style="height: 50px; width: auto;"></div>
+      <div class=" text">
+        <h2>Learn more</h2>
+        <p><br><b>Container styling</b>
+          <br>width: 197.26px;
+          <br>height: 49px;
+          <br>border: 3px solid #FFFFFF;
+          <br>border-radius: 50px;
+            
+                    <br><br>  <b>Text styling</b>
+                    <br>font-family: 'Poppins';
+                    <br>font-style: normal;
+                    <br>font-weight: 600;
+                    <br>font-size: 20px;
+                    <br>line-height: 30px;      
+                    <br> text-align: center;          
+                    <br> color: #FFFFFF; 
+                    <br> <br> <b>Effect:</b> xs_shadow</p></div>
+    
+  </div>  
+
+  <div class=" contentimg"  style="background-color: #2862CC; padding-top: 25px;padding-bottom: 25px;">
+    <div style="margin-right: 5vw; padding-top: 8vh " > <img src="img/btnlearnnegative.png" alt="Learn more - negative button" style="height: 50px; width: auto;"></div>
+      <div class=" text">
+        <h2>Learn more - negative</h2>
+        <p><br><b>Container styling</b>
+          <br>width: 197.26px;
+          <br>height: 49px;
+          <br>border: 3px solid #FFFFFF;
+          <br>border-radius: 50px;
+            
+                    <br><br>  <b>Text styling</b>
+                    <br>font-family: 'Poppins';
+                    <br>font-style: normal;
+                    <br>font-weight: 600;
+                    <br>font-size: 20px;
+                    <br>line-height: 30px;      
+                    <br> text-align: center;          
+                    <br> color: #FFFFFF;
+                  
+                  <br> <br> <b>Effect:</b> xs_shadow
+                  </p></div>
+    
+  </div>  
+
+  <div class=" contentimg">
+    <div style="margin-right: 5vw; padding-top: 8vh;" > <img src="img/btnclear.png" alt="Other buttons 1" style="height: 40px; width: auto;"> <img src="img/btnexplore.png" alt="Other buttons 2" style="height: 40px; width: auto;"></div>
+      <div class=" text">
+        <h2>Other buttons</h2>
+        <p>If the purpose doesnt fit into either of previously mentioned buttons 
+          <br> <br> <b>Font:</b> Poppins, SemiBold <br>
+          -> aim for 20px however it is possible to go over or under
+          <br> this sizing if suitable in the context 
+          <br><b>Spacing:</b> Centered, 10<br> </p></div>
+    
+  </div>  
+  
+</section>
+
+<!-- Pattern section -->  
+<section id="pattern">
+  <div class="flex-container flex" >
+    <div style="width: 20%; height: auto; margin-top: 18px;" class="onetitle">Design patterns</div>
+    <div style="width: 80%; height: auto;" class="onesection">
+    <h1>Design elements that are either reusable
+      <br> or they serve as a base for other designs. </h1>
+  
+  </div>
+  </div>
+
+
+  
+  <div class=" contentimg">
+    <div style="margin-right: 5vw; padding-top: 8vh " > <img src="img/filter.png" alt="Filter" style="height: 6vh; width: auto;"></div>
+      <div class=" text" >
+        <h2>Filter</h2>
+        <p><br><b>Container styling</b>
+          <br>width: 94px;
+          <br>height: 46px;
+          <br> color: #FFFFFF;
+          <br>border-radius: 60px;
+
+          <br>            <br>
+           Gap between containers = 10px
+
+     
+        <br><br>  <b>Text styling</b>
+        <br> font-family: 'Poppins';
+        <br> font-style: normal;
+        <br> font-weight: 700;
+        <br> font-size: 20px;
+        <br>line-height: 30px;          
+        <br>text-align: center;
+        <br>text-align: center;
+        <br>color: #000000;       
+      
+
+        <br> <b>Border for Active filter:</b> solid 4px #2862CC
+
+        <br><br>
+          <b>Effect:</b> xs_shadow
+        </p></div>
+    
+        
+  </div>  
+
+
+  <div class=" contentimg">
+    <div style="margin-right: 5vw; padding-top: 2svh " > <img src="img/boxelement.svg" alt="Box" style="height: 26vh; width: auto;"></div>
+      <div class=" text" ><h2>Box</h2><p>To be used when the Main logo
+         <br> Box that serves as a container for content.
+         <br><b>Border radius:</b> 35px
+          <br> See examples of the text used bellow    </p>  
+    </div>
+    
+  </div>  
+
+
+  <div class=" contentimg">
+    <div style="margin-right: 5vw; padding-top:20px ;"> <img src="img/boxexample1.svg" alt="Box example 1" style="height: auto; width: 25vw;"></div>
+  </div>  
+  <div class=" contentimg">
+    <div style="margin-right: 5vw; padding-top:20px ;"> <img src="img/boxexample2.svg" alt="Box example 2" style="height:  auto; width: 15vw;"></div>
+  </div>  
+  <div class=" contentimg">
+    <div style="margin-right: 5vw; padding-top:20px ;"> <img src="img/boxexample3.svg" alt="Box example 3" style="height: auto; width: 25vw;"></div>
+  </div>  
+
+
+
+
+  <div class="contentimg">
+    <div style="margin-right: 5vw; padding-top: 8vh " > <img src="img/CTAbubble.png" alt="Call to action" style="height: 100px; width: auto;"></div>
+      <div class=" text" ><h2>Call to action container</h2><p>Container present at all pages right before footer<br>
+<br><b>Container styling</b>
+<br> width: 1105px;
+<br>height: 251px;
+<br>background: #90AFE9;
+<br>border-radius: 63px;
+
+        <br><br>  <b>Text styling</b>
+        position: absolute;
+        <br>left: 7.24%;
+        <br>top: 34.26%;
+        <br>font-family: 'Poppins';
+        <br>font-style: normal;
+        <br>font-weight: 700;
+        <br>font-size: 36px;
+        <br>line-height: 111%;
+        <br>display: flex;
+        <br>align-items: center;
+        <br>color: #FFFFFF;
+        <br><br>
+        Call to action button is present in this design.
+        <br> To see styling for Call to action button <a href="#CTA">Click here</a>
+        <br> <br> <b>Effect:</b> xs_shadow
+
+        </p></div>
+    
+  </div>  
+
+  
+</section>
+
+  <!-- Animation section -->
+<section style="margin-bottom: 0;" id="animation">
+  <div class="flex-container flex" >
+    <div style="width: 20%; height: auto; margin-top: 18px;" class="onetitle">Animation</div>
+    <div style="width: 80%; height: auto;" class="onesection">
+    <h1>Showcase of the Animation concepts.</h1>
+    
+  </div>
+  </div>
+
+
+  <h2 style="margin:  2rem auto -10vh 18% ; ">Overal design</h2>
+
+  <div class="contentimg">
+    <div style="margin-right: 5vw; padding-top:20px ;">
+    
+<div class="example-wrapper">
+
+<div class="snapcont y-scroll y-proximity">
+  <div class="snapwrapper">
+    <div class="snapbox">1</div>
+    <div class="snapbox">2</div>
+    <div class="snapbox">3</div>
+    <div class="snapbox">4</div>
+  </div>
+</div>
+
+</div>
+    </div>
+      <div class=" text">
+         <h2>Scroll snap</h2>
+         <p>To be used on all sections of the web design
+           <br> This effect can be achieved with CSS Property 
+              <br> → scroll-snap-type: y proximity;
+            <br>
+          <br><b>Example of possible solution on the left</b></p></div>
+  </div>  
+ 
+
+
+
+
+  <h2 style="margin:  2rem auto -10vh 18% ;">Landing page</h2>
+
+  <div class="contentimg" id="intrograph">
+    <div style="margin-right: 5vw; padding-top:20px ;"> <img src="img/intrograph.png" alt="Intro graphic - Float animation" class="floating" style="height: auto; width: 12vw;"></div>
+      <div class=" text" > 
+        <h2>Intro graphic - Float animation</h2>
+        <p>  Graphic would be broken down into composition of elements,
+          <br>that has suttle float on it and all of the elements are off set 
+          <br>→ the float effect is not in sync
+          <br> <br>
+          <b>Current effect in the example- CSS</b> 
+          <br> .floating {
+            <br>animation-name: floating;
+            <br>animation-duration: 4s;
+            <br>animation-iteration-count: infinite;
+            <br>animation-timing-function: ease-in-out; }
+            <br>
+            <br>
+          @keyframes floating {
+            <br> from {
+              <br>transform: translate(0, 0px); }
+              <br>
+              <br>65% {
+              <br>transform: translate(0, 9px);}
+              <br>
+              <br> to {
+              <br>   transform: translate(0, -0px);}
+              <br>}
+            
+        </p></div>
+  </div>  
+
+
+  <div class="contentimg" id="exploregraph">
+    <div style="margin-right: 5vw; padding-top:20px ;"> <img src="img/isolatedobjects.gif" alt="Explore graphic - animation" style="height:auto; width: 30vw;"></div>
+      <div class=" text">
+         <h2>Explore graphic</h2><p>MouseMove animation which should be 
+           <br>applied to isolated elements of the graphic.
+           <br> Example of the animation on the left. 
+           <br> See graphic to apply the animation to below.
+           <br> <br> Example of the animation on the left. 
+           <br> See graphic to apply the animation to below.
+           <br><a href="https://www.awwwards.com/inspiration/bot-bottle-on-the-table-button-hover-and-click-animation">
+              Source of the example  </a></p></div>
+  </div> 
+  <div >
+    <img src="img/graphic2.png" alt="Book a free demo - Button" style="display: block;  margin-left: auto; margin-right: auto; height: auto; width: 40vw;">
+  </div>
+
+
+  <div class="contentimg">
+    <div style="margin-right: 5vw; padding-top:20px ;"> <img src="img/A-CSS-only-CarouselSlider.gif" alt="Carousel - animation" style="height: 25vh; width: auto;"></div>
+      <div class=" text" >
+         <h2>Carousel</h2>
+         <p>Animation of testimonies carousel on the landing page. 
+           <br>Desired effect can be achieved with CSS animation.
+           <br> <br> Example of the animation on the left. 
+           <br> See graphic to apply the animation to below.
+            
+            <br><a href="https://codepen.io/Schepp/pen/WNbQByE"> Source of the example  </a></p></div>
+  </div>  
+  <div >
+    <img src="img/carouselcustomerss.png" alt="Carousel" style="display: block;  margin-left: auto; margin-right: auto; height: auto; width: 40vw;">
+  </div>
+
+  <div class="contentimg">
+    <div style="margin-right: 5vw; padding-top:20px ;"> <img src="img/customersslider.gif" alt="Infinite autoplay customers carousel - animation" style="height: 8vh; width: auto;"></div>
+      <div class=" text" >
+         <h2> Infinite autoplay customers carousel</h2>
+         <p>Animation of customer logos on the landing page.
+           <br> Too get current customer logos, reach out to <a href="mailto:bara@barma.dk"> Bara Matejova</a>
+           <br>
+             Desired effect can be achieved with CSS animation.
+             <br> <br> Example of the animation on the left. 
+             <br> See graphic to apply the animation to below.
+            <br><a href="https://codepen.io/studiojvla/pen/qVbQqW"> Source of the example  </a></p></div>
+  </div>  
+  <div >
+    <img src="img/ourcustomers.png" alt="Infinite autoplay customers carousel" style="display: block;  margin-left: auto; margin-right: auto; height: auto; width: 45vw;">
+  </div>
+
+
+
+  <div class="contentimg">
+    <div style="margin-right: 5vw; padding-top:20px ;"> <img src="img/PhoneScroll.gif" alt="Phone scroll - animation" style="height: 30vh; width: auto;"></div>
+      <div class=" text" >
+         <h2>Phone scroll</h2>
+         <p>Scroll activated animation which changes position of phone mockup.
+           <br> <br> Example of the animation on the left. 
+           <br> See graphic to apply the animation to below.
+                         <br><a href="https://www.wellgraf.com/"> Source of the example  </a></p></div>
+  </div>  
+  <div >
+    <img src="img/scrollphpne.png" alt="Phone scroll" style="display: block;  margin-left: auto; margin-right: auto; height: auto; width: 35vw;">
+  </div>
+
+  <h2 style="margin:  2rem auto -10vh 18% ;">The app</h2>
+
+  <div class=" contentimg">
+    <div style="margin-right: 5vw; padding-top:20px ;"> <img src="img/WhatXSee.gif" alt="What you see, What your employees sees - animation" style="height: 25vh; width: auto;"></div>
+      <div class=" text"> 
+        <h2>What you see
+        <br> What your employees sees
+      </h2><p>Scroll activated animation which switches the background and text boxes.
+
+         <br> <br> Example of the animation on the left. 
+         <br> See graphic to apply the animation to below.
+         <br><br><a href="https://www.google.com/calendar/about/"> Source of the example  </a> </p></div>
+  </div>  
+  <div >
+    <img src="img/scroll.png" alt="What you see, What your employees sees" style="display: block;  margin-left: auto; margin-right: auto; height: auto; width: 35vw;">
+  </div>
+  
+</section>
+    </section>
+
+
+
+  </main>
+
+  <script src="./js/app.js" type="module"></script>
+</body>
+
+</html>
